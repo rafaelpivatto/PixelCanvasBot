@@ -1,1 +1,1 @@
-web: python ./setup.py
+web: python ./setup.py & ./forever main.py -i baiacu9.png -x -2169 -y -251 --draw_strategy linear
