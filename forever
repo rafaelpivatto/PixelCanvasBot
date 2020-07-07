@@ -1,0 +1,17 @@
+#!/usr/bin/python
+from subprocess import Popen
+import sys
+
+params = ""
+
+i = 0
+while i < len(sys.argv):
+    if i > 0:
+        params = params + sys.argv[i] + " "
+    
+    i += 1
+
+while True:
+    print("\nStarting " + params)
+    p = Popen("python " + params, shell=True)
+    p.wait()
