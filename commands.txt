@@ -4,4 +4,4 @@
 ./forever main.py -i cw.png -x -2108 -y -361 -f c871e77522788d9650fec25a226be5ec --draw_strategy linear
 
 
-./forever main.py -i cw_logo.png -x -2263 -y -398 -f c871e77522788d9650fec25a226be5ec --draw_strategy linear
+./forever main.py -i cw_logo_b.png -x -2263 -y -400 -f c871e77522788d9650fec25a226be5ec --draw_strategy linear
